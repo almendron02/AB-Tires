@@ -147,7 +147,14 @@ export default function About() {
               <p className="text-white/80 text-xl max-w-md">Stop by our shop today and experience the difference of local, family-owned service.</p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 lg:justify-end">
-              <button className="bg-white text-primary px-10 py-4 rounded-lg font-black text-lg hover:bg-surface-container-lowest transition-colors shadow-xl">BOOK SERVICE</button>
+              <a 
+                className="inline-flex items-center justify-center px-8 py-4 bg-primary-container text-on-primary-container font-black rounded-lg text-lg uppercase tracking-widest hover:brightness-110 transition-all" 
+                href="tel:3343192417"
+              >
+                <Phone size={24} className="mr-2" />
+                <a href="tel:3343192417">
+                <span>Call</span>
+              </a>
               <a
                 className="border-2 border-white/40 text-white px-10 py-4 rounded-lg font-black text-lg hover:bg-white/10 transition-colors inline-block text-center"
                 href="https://maps.google.com/?q=3509+Pepperell+Pkwy+Opelika+AL+36801"

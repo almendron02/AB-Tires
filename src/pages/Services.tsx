@@ -78,10 +78,10 @@ export default function Services() {
               <p className="text-zinc-400 mt-4 text-sm">Extend your tire life and improve fuel efficiency with our laser-guided precision alignment systems.</p>
             </div>
             <div className="relative z-10 mt-8">
-              <div className="flex items-center space-x-2 text-primary-container font-bold italic">
-                <span>BOOK NOW</span>
+              <a href="tel:3343192417" className="inline-flex items-center space-x-2 text-primary-container font-bold italic bg-white/10 hover:bg-white/20 px-4 py-2 rounded-lg transition-all">
+                <span>Call</span>
                 <ArrowRight size={20} />
-              </div>
+              </a>
             </div>
             <div className="absolute bottom-0 right-0 p-4 opacity-30 text-8xl">
               <Settings size={96} strokeWidth={1} />
@@ -154,9 +154,9 @@ export default function Services() {
             <h2 className="font-headline text-4xl md:text-6xl font-black italic text-white mb-6 uppercase">Ready for the Pit Stop?</h2>
             <p className="text-zinc-400 max-w-xl mx-auto mb-10 text-lg">Don't wait for a breakdown. Experience the AB Tires difference today. Fast, professional, and built for performance.</p>
             <div className="flex flex-col md:flex-row items-center justify-center gap-4">
-              <button className="w-full md:w-auto px-10 py-4 pit-crew-gradient text-white font-bold uppercase tracking-widest text-sm rounded-lg hover:brightness-110 transition-all">
-                Book Service Now
-              </button>
+              <a href="tel:3343192417" className="w-full md:w-auto inline-flex justify-center px-10 py-4 pit-crew-gradient text-white font-bold uppercase tracking-widest text-sm rounded-lg hover:brightness-110 transition-all">
+                Call
+              </a>
               <button className="w-full md:w-auto px-10 py-4 border border-zinc-700 text-white font-bold uppercase tracking-widest text-sm rounded-lg hover:bg-zinc-800 transition-all">
                 View Specials
               </button>

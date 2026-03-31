@@ -168,7 +168,12 @@ export default function About() {
             </div>
             <div className="flex flex-col sm:flex-row gap-4 lg:justify-end">
               <button className="bg-white text-primary px-10 py-4 rounded-lg font-black text-lg hover:bg-surface-container-lowest transition-colors shadow-xl">BOOK SERVICE</button>
-              <button className="border-2 border-white/40 text-white px-10 py-4 rounded-lg font-black text-lg hover:bg-white/10 transition-colors">VISIT US</button>
+              <a
+                className="border-2 border-white/40 text-white px-10 py-4 rounded-lg font-black text-lg hover:bg-white/10 transition-colors inline-block text-center"
+                href="https://maps.google.com/?q=3509+Pepperell+Pkwy+Opelika+AL+36801"
+                target="_blank"
+                rel="noopener noreferrer"
+              >VISIT US</a>
             </div>
           </div>
         </div>

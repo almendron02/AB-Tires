@@ -32,7 +32,6 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a 
-                className="inline-flex items-center justify-center px-8 py-4 bg-primary-container text-on-primary-container font-black rounded-lg text-lg uppercase tracking-widest hover:brightness-110 transition-all" 
                 href="tel:3343192417"
               >
                 <Phone size={24} className="mr-2" />

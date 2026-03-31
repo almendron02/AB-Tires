@@ -3,7 +3,7 @@
   publish = "dist"
 
 [build.environment]
-  NODE_VERSION = "18"
+  NODE_VERSION = "20"
 
 # Optional: disable automatic framework detection / Netlify plugins at repo level.
 # If your Netlify site uses a plugin (e.g. "neon") and fails with ENETUNREACH,

@@ -31,26 +31,6 @@ export default function About() {
             </div>
           </motion.div>
           
-          <motion.div 
-            initial={{ opacity: 0, scale: 0.9, rotate: 5 }}
-            animate={{ opacity: 1, scale: 1, rotate: 3 }}
-            className="lg:col-span-5 relative"
-          >
-            <div className="aspect-[4/5] bg-surface-container rounded-xl overflow-hidden shadow-2xl relative hover:rotate-0 transition-transform duration-500">
-              <img 
-                alt="Shop Interior" 
-                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" 
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBFAWtuOndaLcdCTbWvWddvZStOPlJKe4EJCsT5yaQwhCaymyinuizyNOUIFbGLBOljiAEeqzUMUlg5TnpCYr1Nz1FGLNaCPb62NWbQftBJ4puSQw-POeA9nhmdEoN3cMa_PATdN_cdXsNFdJ7d3sP6CiF2nGxPN3jS10yL7_O7oxYQXs4cf9ZCKf1IK3SEV4U5ZfQvbsCLLklepj1WPW8FSgoyodokOj_C-lAxiX5XY1Z3gn_-wnFtadTOi_P7awdUqIhhQzITO54"
-                referrerPolicy="no-referrer"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-              <div className="absolute bottom-6 left-6 text-white">
-                <p className="font-headline text-2xl font-bold tracking-tight">The Original Shop</p>
-                <p className="text-sm opacity-80 font-medium">Est. 2010 in Opelika, AL</p>
-              </div>
-            </div>
-            <div className="absolute -bottom-10 -left-10 hidden lg:block w-64 h-64 bg-primary-container rotate-12 -z-10 rounded-xl"></div>
-          </motion.div>
         </div>
       </section>
 

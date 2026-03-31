@@ -32,10 +32,11 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a 
+                className="inline-flex items-center justify-center px-8 py-4 bg-primary-container text-on-primary-container font-black rounded-lg text-lg uppercase tracking-widest hover:brightness-110 transition-all" 
                 href="tel:3343192417"
               >
                 <Phone size={24} className="mr-2" />
-                <a href="tel:3343192417" className="inline-flex items-center space-x-2 text-primary-container font-bold italic bg-white/10 hover:bg-white/20 px-4 py-2 rounded-lg transition-all">
+                <a href="tel:3343192417">
                 <span>Call</span>
               </a>
               </a>
